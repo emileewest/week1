@@ -1,0 +1,14 @@
+#%%
+'''
+Printing values to the console is a useful way to check current variable values
+or in this case, validate that Python is installed on your machine and running!
+
+Please run this script and make sure it prints "Hello World" to the console!
+'''
+##### ASSIGNMENT STARTS HERE #####
+
+
+
+print('Hello World')
+
+##### ASSIGNMENT ENDS HERE #####
