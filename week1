@@ -1,17 +1,3 @@
-#%%
-'''
-Printing values to the console is a useful way to check current variable values
-or in this case, validate that Python is installed on your machine and running!
-
-Please run this script and make sure it prints "Hello World" to the console!
-'''
-##### ASSIGNMENT STARTS HERE #####
-
-
-print('Hello World')
-
-##### ASSIGNMENT ENDS HERE #####
-
 #Assignment 2#
 ##### ASSIGNMENT STARTS HERE #####
 
@@ -32,10 +18,14 @@ print(name, age, height, is_student)
 ##### ASSIGNMENT ENDS HERE #####
 
 
+
+
+
 #Assignment 3#
 ##### ASSIGNMENT STARTS HERE #####
 
-# First Assignment
+#3.1
+#Please create a program which inputs two years and outputs the years as well as the difference between them
 
 def year_difference():
     year01 = int(input("Enter the first year: "))
@@ -49,7 +39,12 @@ def year_difference():
 
 year_difference()
 
-# Second Assignment
+
+
+
+
+#3.2
+#Please create a program which collects an input as fahrenheit and outputs the temperature in celsius
 
 def Fahrenheit_to_Celsius(Fahrenheit):
 
@@ -65,6 +60,14 @@ Celsius_Temperature = Fahrenheit_to_Celsius(Fahrenheit_Temperature)
 
 print(f"{Fahrenheit_Temperature} degrees Fahrenheit is equal to {Celsius_Temperature} degrees Celsius.")
 
+
+
+
+
+
+#3.3
+#Please create a program that collects an input as US Dollars and converts the output to Euros given the exchange rate on 1/19/25 as 1 USD = 0.97 Euro
+
 def USD_to_Euro(USD_amount):
     
     Euro_amount = USD_amount * 0.97
@@ -74,5 +77,6 @@ USD_amount = float(input("Please enter an amount in US Dollars: "))
 
 Euro_amount = USD_to_Euro(USD_amount)
 print(f"{USD_amount} US Dollars is equal to {Euro_amount:.2f} Euros.")
+
 
 ##### ASSIGNMENT ENDS HERE #####
