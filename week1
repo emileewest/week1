@@ -15,8 +15,19 @@ print('Hello World')
 #Assignment 2#
 ##### ASSIGNMENT STARTS HERE #####
 
+name = ("Emilee,")
+#string
 
+age = ("29,")
+#integer
 
+height = ("5ft6in,")
+#float
+
+is_student =("Yes.")
+#boolean
+
+print(name, age, height, is_student)
 
 ##### ASSIGNMENT ENDS HERE #####
 
@@ -24,7 +35,44 @@ print('Hello World')
 #Assignment 3#
 ##### ASSIGNMENT STARTS HERE #####
 
+# First Assignment
+
+def year_difference():
+    year01 = int(input("Enter the first year: "))
+    year2 = int(input("Enter the second year: "))
+
+    difference = abs(year01 - year2)
+
+    print("Year 1 entered:", year01)
+    print("Year 2 entered:", year2)
+    print("Difference in years:", difference)
+
+year_difference()
+
+# Second Assignment
+
+def Fahrenheit_to_Celsius(Fahrenheit):
+
+    Celsius = (Fahrenheit - 32) * 5 / 9 
+    return Celsius
 
 
+Fahrenheit_Temperature =float(input("Please enter a temperature in Fahrenheit: "))
+
+
+Celsius_Temperature = Fahrenheit_to_Celsius(Fahrenheit_Temperature)
+
+
+print(f"{Fahrenheit_Temperature} degrees Fahrenheit is equal to {Celsius_Temperature} degrees Celsius.")
+
+def USD_to_Euro(USD_amount):
+    
+    Euro_amount = USD_amount * 0.97
+    return Euro_amount 
+
+USD_amount = float(input("Please enter an amount in US Dollars: "))
+
+Euro_amount = USD_to_Euro(USD_amount)
+print(f"{USD_amount} US Dollars is equal to {Euro_amount:.2f} Euros.")
 
 ##### ASSIGNMENT ENDS HERE #####
